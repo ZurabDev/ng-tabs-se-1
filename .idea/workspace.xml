@@ -35,6 +35,9 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/@modules/hw/@res/@class" />
+      <recent name="$PROJECT_DIR$/app/@modules/hw/@sub/@view/tabs/@sub/@view" />
+      <recent name="$PROJECT_DIR$/app/@modules/hw/@sub/@view/tabs/@sub/@service" />
       <recent name="$PROJECT_DIR$/app/@modules" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -62,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607423869536</updated>
-      <workItem from="1607423871044" duration="619000" />
+      <workItem from="1607423871044" duration="924000" />
     </task>
     <servers />
   </component>
