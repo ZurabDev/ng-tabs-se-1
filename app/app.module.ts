@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { TestComponent } from './test.component';
+import {HwModule} from "./@modules/hw/hw.module";
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, HwModule ],
   declarations: [ AppComponent, HelloComponent, TestComponent ],
   bootstrap:    [ AppComponent ],
-  schemas: [ NO_ERRORS_SCHEMA ]
+  schemas: [ /*NO_ERRORS_SCHEMA*/ ]
 })
 export class AppModule { }
