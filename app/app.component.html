@@ -1,8 +1,8 @@
 <button (click)="dec()">
-    Remove tab
+  Remove tab
 </button>
 <button (click)="inc()">
-    Add tab
+  Add tab
 </button>
 
 <br>
@@ -12,7 +12,7 @@
     <tab-title>
       Tab <b>{{ tab }}</b> title
     </tab-title>
-    <tab-content>
+    <tab-content *ifTabActive>
       Tab <b>{{ tab }}</b> content
       <test [tab]="tab"></test>
     </tab-content>
