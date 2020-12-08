@@ -7,10 +7,10 @@ import {
   OnDestroy,
   OnInit
 } from '@angular/core';
-import {TabsService} from "./@sub/@service/tabs/tabs.service";
+import {TabsService} from "../../@service/tabs/tabs.service";
 import {TabContentComponent} from "./@sub/@view/tab-content/tab-content.component";
 import {TabTitleComponent} from "./@sub/@view/tab-title/tab-title.component";
-import {UnsubscribeOnDestroyClass} from "./@sub/@res/@class/unsubsctibe-on-destroy/unsubsctibe-on-destroy.class";
+import {UnsubscribeOnDestroyClass} from "../../../../../../@res/@class/unsubsctibe-on-destroy/unsubsctibe-on-destroy.class";
 import {SingleTabService} from "./@sub/@service/single-tab/single-tab.service";
 
 @Component({

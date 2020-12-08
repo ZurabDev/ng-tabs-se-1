@@ -1,4 +1,4 @@
-import {UnsubscribeOnDestroyClass} from "../unsubsctibe-on-destroy/unsubsctibe-on-destroy.class";
+import {UnsubscribeOnDestroyClass} from "../../../../../../../../../../@res/@class/unsubsctibe-on-destroy/unsubsctibe-on-destroy.class";
 import {ChangeDetectorRef, ElementRef, Injectable} from "@angular/core";
 import {SingleTabService} from "../../../@service/single-tab/single-tab.service";
 import {delay, switchMap, takeUntil} from "rxjs/operators";

@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, ElementRef, Injectable} from "@angular/core";
 import {BehaviorSubject, Observable, of, Subject} from "rxjs";
-import {TabsService} from "../tabs/tabs.service";
+import {TabsService} from "../../../../../@service/tabs/tabs.service";
 import {delay, delayWhen, distinctUntilChanged, map, repeatWhen, switchMap} from "rxjs/operators";
 
 @Injectable()
